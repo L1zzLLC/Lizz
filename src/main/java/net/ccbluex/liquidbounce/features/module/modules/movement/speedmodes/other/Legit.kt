@@ -1,7 +1,7 @@
 /*
- * LiquidBounce Hacked Client
+ * Lizz Hacked Client
  * A free open source mixin-based injection hacked client for Minecraft using Minecraft Forge.
- * https://github.com/CCBlueX/LiquidBounce/
+ * https://github.com/L1zzLLC/Lizz/
  */
 package net.ccbluex.liquidbounce.features.module.modules.movement.speedmodes.other
 
