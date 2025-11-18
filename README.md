@@ -1,13 +1,7 @@
 <div align="center">
 <p>
-    <img width="250" src="https://raw.githubusercontent.com/CCBlueX/LiquidCloud/master/LiquidBounce/liquidbounceLogo.svg">
+    <img width="250" src="https://raw.githubusercontent.com/L1zzLLC/Lizz/refs/heads/main/src/main/resources/assets/minecraft/lizz/logo_icon.png">
 </p>
-    
-[Website](https://liquidbounce.net) |
-[Forum](https://forums.ccbluex.net) |
-[Discord](https://discord.com/invite/68GgEGTRr9) | 
-[YouTube](https://youtube.com/CCBlueX) |
-[Twitter](https://twitter.com/CCBlueX)
 
 A free mixin-based injection hacked-client for Minecraft using Minecraft Forge, supporting version 1.8.9
 </div>
