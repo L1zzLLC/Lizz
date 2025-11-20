@@ -12,7 +12,7 @@ https://github.com/L1zzLLC/Lizz
 2. Create a folder called "mods" inside in the ".minecraft" directory.
 3. Copy "lizz.jar" into the mods folder.
 4. RECOMMENDED: Install OptiFine mod for improved performance (from https://optifine.net/downloads)
-5. RECOMMENDED: Install ViaForge mod to join any 1.7-1.18.2 server (from https://www.curseforge.com/minecraft/mc-mods/viaforge)
+5. RECOMMENDED: Install ViaForge mod to join any 1.7-1.21.5 server (from https://www.curseforge.com/minecraft/mc-mods/viaforge)
 7. Launch Forge through the Minecraft launcher.
 
 ➔ Reminder for nightly builds
