@@ -25,7 +25,7 @@ this project entirely or partially for free and even commercially. However, plea
 Do the above and share your source code with everyone; just like we do.
 
 ## Setting up a Workspace
-LiquidBounce is using Gradle, so make sure that it is installed properly. Instructions can be found on [Gradle's website](https://gradle.org/install/).
+Lizz is using Gradle, so make sure that it is installed properly. Instructions can be found on [Gradle's website](https://gradle.org/install/).
 1. Clone the repository using `git clone https://github.com/L1zzLLC/Lizz/`. 
 2. CD into the local repository folder.
 3. Depending on which IDE you are using execute either of the following commands:
@@ -38,13 +38,4 @@ LiquidBounce is using Gradle, so make sure that it is installed properly. Instru
 ### Mixins
 Mixins can be used to modify classes at runtime before they are loaded. LiquidBounce is using it to inject its code into the Minecraft client. This way, we do not have to ship Mojang's copyrighted code. If you want to learn more about it, check out its [Documentation](https://docs.spongepowered.org/5.1.0/en/plugin/internals/mixins.html).
 
-## Contributing
 
-We appreciate contributions. So if you want to support us, feel free to make changes to LiquidBounce's source code and submit a pull request. Currently, our main goals are the following:
-1. Improve LiquidBounce's performance.
-2. Re-work most of the render code.
-
-If you have experience in one or more of these fields, we would highly appreciate your support.
-
-## Stats
-![Alt](https://repobeats.axiom.co/api/embed/53a8b71ca387182c6f12a1c98a88edbe0a7bae99.svg "Repobeats analytics image")
