@@ -1,5 +1,4 @@
 name: Build
-
 on:
   push:
     branches: [ main ]
@@ -27,6 +26,8 @@ jobs:
         run: chmod u+x gradlew
       - name: Build
         run: ./gradlew build
+      - name: Chmod zip
+        run: chmod u+x lizz.zip
       - name: Upload artifact
         run: |
           cd build/libs
