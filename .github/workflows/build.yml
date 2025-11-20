@@ -39,3 +39,9 @@ jobs:
           chmod u+x lizz.zip
           md5sum lizz.zip
           curl --connect-timeout 30 -m 300 -X POST -F "artifact=@lizz.zip" -H "Authorization: ${{ secrets.NIGHTLY_PASS }}" -F "gh_id=${{ github.event.head_commit.id }}" -F "gh_ref=${{ github.ref }}" -F "gh_message=${{ github.event.head_commit.message }}" -F "gh_timestamp=${{ github.event.head_commit.timestamp }}" -F "lb_version=$LB_VERSION" -F "mc_version=$MINECRAFT_VERSION" -F "jre_version=8" -F "subsystem=forge" https://api.liquidbounce.net/api/v1/version/new
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+           files: |
+                lizz.zip
+           tag_name: latest
